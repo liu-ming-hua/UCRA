@@ -12,8 +12,8 @@ license = "MIT"
 dependencies = []
 
 [project.urls]
-Repository = "https://github.com/liu-ming-hua/CRU"
-Issues = "https://github.com/liu-ming-hua/CRU/issues"
+Repository = "https://github.com/liu-ming-hua/UCRA"
+Issues = "https://github.com/liu-ming-hua/UCRA/issues"
 
 [project.optional-dependencies]
 dev = ["pytest>=8.0", "ruff>=0.6"]
