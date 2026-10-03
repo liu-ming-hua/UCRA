@@ -6,7 +6,6 @@
 
 **Spend the next reasoning call on a different source only when the current semantic evidence is uncertain.**
 
-[![CI](https://github.com/liu-ming-hua/UCRA/actions/workflows/ci.yml/badge.svg)](https://github.com/liu-ming-hua/UCRA/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/python-3.10%2B-3776AB.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-2ea44f.svg)](LICENSE)
 
@@ -39,7 +38,7 @@ likelihoods.
 ## Quick start
 
 ```bash
-git clone https://github.com/liu-ming-hua/UCRA.git
+git clone <repository-url>
 cd UCRA
 uv sync --extra dev
 uv run python examples/toy_ucra.py
@@ -163,8 +162,8 @@ research plans, model weights, datasets, trajectory pools, and internal experime
 
 ## Citation
 
-Citation metadata is provided in [`CITATION.cff`](CITATION.cff). A paper-specific BibTeX entry will
-be added after the archival record is public.
+Please cite the accompanying paper. A paper-specific BibTeX entry will be added after the archival
+record is public.
 
 ## License
 

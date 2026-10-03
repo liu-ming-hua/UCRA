@@ -11,10 +11,6 @@ requires-python = ">=3.10"
 license = "MIT"
 dependencies = []
 
-[project.urls]
-Repository = "https://github.com/liu-ming-hua/UCRA"
-Issues = "https://github.com/liu-ming-hua/UCRA/issues"
-
 [project.optional-dependencies]
 dev = ["pytest>=8.0", "ruff>=0.6"]
 
