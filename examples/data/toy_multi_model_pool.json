@@ -1,0 +1,14 @@
+[
+  {
+    "id": "unanimous-stop",
+    "target": ["A", "A"],
+    "helper_1": "A",
+    "helper_2": "B"
+  },
+  {
+    "id": "cross-source-rescue",
+    "target": ["A", "A"],
+    "helper_1": "B",
+    "helper_2": "B"
+  }
+]

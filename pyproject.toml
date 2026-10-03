@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ucra-reasoning"
+version = "0.1.0"
+description = "Uncertainty-guided cross-source response acquisition for LLM reasoning"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/liu-ming-hua/CRU"
+Issues = "https://github.com/liu-ming-hua/CRU/issues"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/uncertainty_reasoning"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

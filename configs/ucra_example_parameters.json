@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "entropy_threshold": 0.5,
+  "helpers": {
+    "qwen3-8b": [
+      "deepseek-r1-qwen-7b",
+      "phi4-reasoning-plus"
+    ],
+    "deepseek-r1-qwen-7b": [
+      "qwen3-8b",
+      "phi4-reasoning-plus"
+    ]
+  },
+  "reliabilities": {
+    "qwen3-8b": 0.7944280303030302,
+    "deepseek-r1-qwen-7b": 0.7014242424242424,
+    "phi4-reasoning-plus": 0.8161199494949495
+  },
+  "evidence_weights": {
+    "qwen3-8b": {
+      "qwen3-8b": 0.9386695130980839,
+      "deepseek-r1-qwen-7b": 1.0238766641714823,
+      "phi4-reasoning-plus": 1.0374538227304342
+    },
+    "deepseek-r1-qwen-7b": {
+      "deepseek-r1-qwen-7b": 1.0238766641714823,
+      "qwen3-8b": 0.9386695130980839,
+      "phi4-reasoning-plus": 1.0374538227304342
+    }
+  }
+}
